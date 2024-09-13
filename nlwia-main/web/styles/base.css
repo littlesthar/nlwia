@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  background-color: #f5f5dc;
+  color: #ffd700;
+
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body,
+button,
+input {
+  font-family: "Nerko One", cursive;
+}
+
+.retangulo {
+  width: 510px;
+  height: 800px;
+  background-color: #ffd700;
+  position: fixed;
+  left: 4%;
+  top: 7%;
+  border-radius: 5%;
+}
+
+.video-one {
+  position: absolute; /* Permite o posicionamento absoluto */
+  left: 8%; /* Distância da borda esquerda */
+  top: 10%; /* Distância da borda superior */
+  width: 360px; /* Largura fixa */
+  height: 215px; /* Altura fixa */
+  border-radius: 15px; /* Arredonda os cantos */
+  border: none; /* Remove a borda padrão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+.video-two {
+  position: absolute; /* Permite o posicionamento absoluto */
+  left: 8%; /* Distância da borda esquerda */
+  top: 38%; /* Distância da borda superior */
+  width: 360px; /* Largura fixa */
+  height: 215px; /* Altura fixa */
+  border-radius: 15px; /* Arredonda os cantos */
+  border: none; /* Remove a borda padrão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+.video-tree {
+  position: absolute; /* Permite o posicionamento absoluto */
+  left: 8%; /* Distância da borda esquerda */
+  top: 67%; /* Distância da borda superior */
+  width: 360px; /* Largura fixa */
+  height: 215px; /* Altura fixa */
+  border-radius: 15px; /* Arredonda os cantos */
+  border: none; /* Remove a borda padrão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}

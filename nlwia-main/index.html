@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="icon" type="image" href="logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Snap Shorts</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="button.css" />
+  </head>
+  <body>
+    <div id="app">
+      <img src="/logo.png" alt="Logo" />
+      <h1>Snap Shorts</h1>
+
+      <div class="retangulo"></div>
+
+      <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
+
+      <form id="form">
+        <input type="url" id="url" placeholder="URL do vídeo" />
+        <button title="Resumir">
+          <i class="ph ph-play"></i>
+        </button>
+      </form>
+
+      <h2>Resumo</h2>
+      <p id="content" class="placeholder">Escolha um short para resumir</p>
+    </div>
+
+    <iframe
+      class="video-one"
+      width="360"
+      height="215"
+      src="https://www.youtube.com/embed/kPa7bsKwL-c?si=ljUl1R0zhY3-9cGm"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <iframe
+      class="video-two"
+      width="360"
+      height="215"
+      src="https://www.youtube.com/embed/WuenyQ4NCQE?si=BcsvWNScjr9qg7ZR"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <iframe
+      class="video-tree"
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/d4iGRWvlfMY?si=hHdV94v8HXnXQzZK"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <!-- Seus scripts -->
+    <script type="module" src="web/main.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <script src="button.js"></script>
+    <script
+      src="https://kit.fontawesome.com/998c60ef77.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
